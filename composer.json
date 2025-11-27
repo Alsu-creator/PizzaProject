@@ -1,0 +1,25 @@
+{
+    "name": "Alsu-creator/pizzaproject",
+    "description": "A project that uses the pizza store library",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "lerakhalturina06/pizza-store-lib": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../PizzaStore",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PizzaProject\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
