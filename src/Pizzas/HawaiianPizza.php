@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PizzaStoreLib\Pizzas;
+namespace PizzaProject\Pizzas;
 
-use PizzaStoreLib\Pizza;
+use PizzaProject\Pizza;
 
 class HawaiianPizza extends Pizza
 {
